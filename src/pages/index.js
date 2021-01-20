@@ -41,14 +41,6 @@ const IndexPage = () => {
 
   let aboutContent = null;
 
-  console.log(window.screen.width);
-
-  if(window.screen.width < 800){
-    aboutContent = <About innerContent={aboutText}/>;
-  } else {
-    aboutContent = <AboutDesktop innerContent={aboutText}/>
-  }
-
   return(
     <Layout>
       <Hero />

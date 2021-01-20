@@ -18,13 +18,6 @@ class Layout extends Component {
     });
   }
 
-  componentDidMount(){
-    if(window.screen.width > 800){
-      this.setState({isMobile: false})
-    } else {
-      this.setState({isMobile: true})
-    }
-  }
   render () {
     
     const navbar = (
