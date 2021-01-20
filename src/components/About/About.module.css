@@ -1,0 +1,56 @@
+.AboutContainer{
+    height: auto;
+    width: 100%;
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+.About {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.AboutHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.AboutContent{
+    text-align: center;
+    margin: 20px 40px;
+    height: 0px;
+    transition: all 1s ease-in;
+}
+
+.Expanded{
+    height: 120vh;
+}
+
+.Collapsed{
+    height: 0px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.DropDownArrow{
+    height: 25px;
+    width: 25px;
+    background: url('../../assets/images/whiteArrow.png') no-repeat center center/cover;
+    margin-left: 15px;
+}
+
+@media (min-width: 1200px){
+    .About{
+        background: url('../../assets/images/artBG.webp') no-repeat center center/cover;
+    }
+    .AboutContent{
+        width: 50%;
+        margin: 20px auto;
+    }
+}

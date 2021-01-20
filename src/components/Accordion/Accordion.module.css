@@ -1,0 +1,37 @@
+.Accordion{
+    text-align: center;
+    background: #333333 !important;
+    width: 100vw;
+    padding: 25px 0 50px 0;
+}
+
+.Header{
+    padding: 0 0 10px 0;
+}
+
+.Card {
+    background: #333333 !important;
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.CardBody{
+    background-color: #f1f1f1;
+    color: #111111;
+}
+
+@media (min-width: 800px){
+    .Accordion{
+        width: 1000px;
+    }
+
+    .Card{
+        width: 80%;
+        margin: auto;
+    }
+
+    .Toggle{
+        background-color: #333333 !important;
+        cursor: pointer;
+    }
+}

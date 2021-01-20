@@ -1,0 +1,49 @@
+.Navbar {
+    width: 100vw;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: #222222;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.NavLogo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CheeseIcon{
+    height: 40px;
+    width: 40px;
+    background: url('../../../../assets/images/navIcon.png') no-repeat center center/cover;
+}
+
+.LinkList{
+    height: 50px;
+    padding-top: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.NavLink{
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+.NavLink:hover{
+    text-decoration: none;
+    color: #ffd986;
+}
+
+

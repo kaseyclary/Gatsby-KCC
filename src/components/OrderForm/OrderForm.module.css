@@ -1,0 +1,9 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.Button{
+    margin-top: 10px;
+    justify-self: center;
+}

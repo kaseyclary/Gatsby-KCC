@@ -1,0 +1,131 @@
+.Pricing{
+    width: 100vw;
+    margin: 10vh auto 5vh auto;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.HeaderContent{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 40px 0;
+}
+
+.HeaderImg{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+.PricingOptions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.PricingOption{
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.PricingOption:nth-of-type(2n+1){
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+.PricingOption h2, p{
+    margin: 5px 0px;
+}
+
+.PricingOption1{
+    background: url('../assets/images/sixeight.webp') no-repeat center center/cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.PricingOption2{
+    background: url('../assets/images/eightten.webp') no-repeat center center/cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.PricingOption3{
+    background: url('../assets/images/tenfifteen.webp') no-repeat center center/cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.PricingOption4{
+    background: url('../assets/images/event.webp') no-repeat center center/cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.PricingOption5{
+    background: url('../assets/images/event.webp') no-repeat center center/cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.odd{
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+@media(min-width: 800px){
+    .PricingContainer{
+        width: 100vw;
+        background: url('../assets/images/artBG.webp') no-repeat center center/cover;
+    }
+    .Pricing{
+        padding-top: 100px;
+        width: 1000px;
+        background-color: #fffffff5;
+        margin: auto;
+    }
+    .PricingOptions{
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+    .PricingOption:nth-of-type(1){
+        background-color: #C1755E;
+        color: #f1f1f1;
+    }
+    .PricingOption:nth-of-type(2){
+        background-color: #B2A48A;
+        color: #f1f1f1;
+    }
+    .PricingOption:nth-of-type(3){
+        background-color: #B2A48A;
+        color: #f1f1f1;
+    }
+    .PricingOption:nth-of-type(4){
+        background-color: #C1755E;
+        color: #f1f1f1;
+    }
+    .PricingOption:nth-of-type(5){
+        background-color: #C1755E;
+        color: #f1f1f1;
+    }
+    
+    .PricingOption{
+        width: 400px;
+        height: 400px;
+        border-radius: 5px;
+        margin: 15px;
+        font-size: 1.1rem;
+    }
+}

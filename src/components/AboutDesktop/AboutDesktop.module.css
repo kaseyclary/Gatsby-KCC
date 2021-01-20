@@ -1,0 +1,66 @@
+.AboutContainer{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background: url('../../assets/images/artBG.webp') no-repeat center center/cover;
+}
+
+.AboutContent{
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffde;
+}
+
+.AboutInfo{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutLogo{
+    width: 500px;
+    height: 500px;
+    background: url('../../assets/images/blackLogo.webp') no-repeat center center/cover;
+    margin: auto;
+}
+
+.AboutText{
+    background-color: #ffffff;
+    width: 60%;
+    height: 80%;
+    padding: 50px;
+    border: 3px #3333334d solid;
+    text-align: center;
+}
+
+.AboutLinks{
+    background-color: #111111;
+    color: #f1f1f1;
+    height: 100px;
+    width: 100%;
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.Link{
+    color: #f1f1f1;
+}
+
+.Testamonial{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
+
+
