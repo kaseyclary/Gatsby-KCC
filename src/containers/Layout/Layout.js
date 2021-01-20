@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import classes from './layout.module.css'
 import Aux from '../../HOC/aux'
 import NavBar from '../../components/Navigation/NavBar/NavBar'
 import NavBarDropdown from '../../components/Navigation/NavBar/NavBarDropdown/NavBarDropdown'
