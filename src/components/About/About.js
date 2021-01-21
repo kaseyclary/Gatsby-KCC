@@ -9,7 +9,6 @@ class About extends Component{
 
     state = {
         isExpanded: false,
-        isMobile: true
     }
 
     aboutToggle = () => {
