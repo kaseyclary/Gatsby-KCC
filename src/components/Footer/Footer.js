@@ -5,7 +5,7 @@ const footer = (props) => (
     <footer className={classes.Footer}>
         <div className={classes.FooterContent}>
             <div className={classes.footerText}>
-                <p>Custom web development by Kasey Clary</p>
+                <p>Property of KBC Holdings, LLC &copy;</p>
                 <p>Follow us on social media!</p>
             </div>
             <div className={classes.SocialContainer}>
