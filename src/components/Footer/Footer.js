@@ -9,8 +9,8 @@ const footer = (props) => (
                 <p>Follow us on social media!</p>
             </div>
             <div className={classes.SocialContainer}>
-                <a href=""><div className={classes.FacebookIcon}></div></a>
-                <a href=""><div className={classes.InstaIcon}></div></a>
+                <a href="https://www.facebook.com/CharcuterieByKylie"><div className={classes.FacebookIcon}></div></a>
+                <a href="https://www.instagram.com/charcuteriebykylie/"><div className={classes.InstaIcon}></div></a>
             </div>
         </div>
     </footer>
