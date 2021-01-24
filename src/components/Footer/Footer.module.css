@@ -1,12 +1,18 @@
 .Footer {
-    width: 100%;
+    width: 100vw;
     height: 15vh;
+    background-color: #111111;
+    color: #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.FooterContent{
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-color: #111111;
-    color: #f1f1f1;
     text-align: center;
 }
 
@@ -19,13 +25,43 @@
 }
 
 .FacebookIcon{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background: url('../../assets/images/facebook.png') no-repeat center center/cover;
 }
 
 .InstaIcon{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background: url('../../assets/images/instagram.png') no-repeat center center/cover;
+}
+
+@media(min-width: 800px){
+    .Footer{
+        height: 3rem;
+        font-size: 0.8rem;
+    }
+    .FooterContent{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 400px;
+        margin: auto;
+    }
+
+    .SocialContainer{
+        width: 20%;
+        margin: 0;
+    }
+    .footerText{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: auto;
+    }
+    .footerText p{
+        line-height: auto;
+        margin: 0;
+        text-align: left;
+    }
 }

@@ -49,32 +49,40 @@
     margin: 5px 0px;
 }
 
+/* This is wildly inefficient. Fix it */
+
 .PricingOption1{
-    background: url('../assets/images/sixeight.webp') no-repeat center center/cover;
+    background: url('../assets/images/6.webp') no-repeat center center/cover;
     height: 200px;
     width: 300px;
     border-radius: 5px;
 }
 .PricingOption2{
-    background: url('../assets/images/eightten.webp') no-repeat center center/cover;
+    background: url('../assets/images/8.webp') no-repeat center center/cover;
     height: 200px;
     width: 300px;
     border-radius: 5px;
 }
 .PricingOption3{
-    background: url('../assets/images/tenfifteen.webp') no-repeat center center/cover;
+    background: url('../assets/images/10.webp') no-repeat center center/cover;
     height: 200px;
     width: 300px;
     border-radius: 5px;
 }
 .PricingOption4{
-    background: url('../assets/images/event.webp') no-repeat center center/cover;
+    background: url('../assets/images/15.webp') no-repeat center center/cover;
     height: 200px;
     width: 300px;
     border-radius: 5px;
 }
 .PricingOption5{
-    background: url('../assets/images/event.webp') no-repeat center center/cover;
+    background: url('../assets/images/event2.webp') no-repeat center center/cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.PricingOption6{
+    background: url('../assets/images/cup.webp') no-repeat center center/cover;
     height: 200px;
     width: 300px;
     border-radius: 5px;
@@ -118,6 +126,10 @@
     }
     .PricingOption:nth-of-type(5){
         background-color: #C1755E;
+        color: #f1f1f1;
+    }
+    .PricingOption:nth-of-type(6){
+        background-color: #B2A48A;
         color: #f1f1f1;
     }
     

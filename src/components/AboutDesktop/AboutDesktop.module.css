@@ -1,12 +1,10 @@
 .AboutContainer{
-    position: absolute;
     width: 100vw;
     height: auto;
     background: url('../../assets/images/artBG.webp') no-repeat center center/cover;
 }
 
 .AboutContent{
-    position: relative;
     width: 1200px;
     height: auto;
     margin: auto;
@@ -32,11 +30,12 @@
 
 .AboutText{
     background-color: #ffffff;
-    width: 60%;
-    height: 80%;
+    width: 650px;
+    height: auto;
     padding: 50px;
     border: 3px #3333334d solid;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .AboutLinks{
@@ -53,6 +52,12 @@
 
 .Link{
     color: #f1f1f1;
+    transition: all .25s;
+}
+
+.Link:hover{
+    color: #ffd986;
+    text-decoration: none;
 }
 
 .Testamonial{
@@ -63,4 +68,17 @@
     padding: 30px 0;
 }
 
+@media(max-width: 700px){
+    .AboutContainer{
+        display: none;
+    }
+}
 
+@media(min-width: 700px) and (max-width: 1024px){
+    .AboutContent{
+        width: 80%;
+    }
+    .AboutInfo{
+        flex-direction: column;
+    }
+}

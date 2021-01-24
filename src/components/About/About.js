@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import classes from '../About/About.module.css';
-import Aux from '../../HOC/aux'
+import Aux from '../../HOC/aux';
+import AboutDesktop from '../AboutDesktop/AboutDesktop';
 
 class About extends Component{
     constructor(props){
@@ -26,7 +27,7 @@ class About extends Component{
         }
         const aboutContent = (
             <div className={aboutClasses.join(' ')}>
-                <p>{this.props.innerContent}</p>
+                <p>{this.props.text}</p>
             </div>
         )
         return(
@@ -40,6 +41,7 @@ class About extends Component{
                     </div>
                     {aboutContent}
                 </div>
+                <AboutDesktop className={classes.AboutDesktop} text={this.props.text} />
             </Aux>
         )
     }

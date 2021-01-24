@@ -4,6 +4,7 @@ import NavBar from '../../components/Navigation/NavBar/NavBar'
 import NavBarDropdown from '../../components/Navigation/NavBar/NavBarDropdown/NavBarDropdown'
 import Footer from '../../components/Footer/Footer'
 import DesktopNavbar from '../../components/Navigation/NavBar/DesktopNavbar/DesktopNavbar'
+import classes from '../Layout/Layout.module.css'
 
 class Layout extends Component {
   state = {
@@ -26,11 +27,11 @@ class Layout extends Component {
       </Aux>
     );
     return(
-      <Aux>
+      <div>
         {this.state.isMobile ? navbar : <DesktopNavbar />}
         {this.props.children}
         <Footer />
-      </Aux>
+      </div>
     )
   }
 }

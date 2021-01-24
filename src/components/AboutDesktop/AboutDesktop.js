@@ -8,7 +8,7 @@ const aboutDesktop = (props) => (
             <div className={classes.AboutInfo}>
                 <div className={classes.AboutLogo} />
                 <div className={classes.AboutText}>
-                    {props.innerContent}
+                    {props.text}
                 </div>
             </div>
             <div className={classes.AboutLinks}>

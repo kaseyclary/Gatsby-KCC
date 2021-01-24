@@ -32,3 +32,9 @@
     text-decoration: none;
     color: #f1f1f1;
 }
+
+@media(min-width: 800px){
+    .NavBarDropdown{
+        display: hidden;
+    }
+}

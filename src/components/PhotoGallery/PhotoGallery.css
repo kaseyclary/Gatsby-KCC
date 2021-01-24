@@ -1,1 +1,4 @@
+.ImageGallery img{
+    max-height: 500px;
+}
 @import "~react-image-gallery/styles/css/image-gallery.css"

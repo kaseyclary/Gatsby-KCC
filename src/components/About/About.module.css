@@ -1,3 +1,7 @@
+.AboutDesktop{
+    display: none;
+}
+
 .AboutContainer{
     height: auto;
     width: 100%;
@@ -27,7 +31,7 @@
 }
 
 .Expanded{
-    height: 120vh;
+    height: 80vh;
 }
 
 .Collapsed{
@@ -38,6 +42,10 @@ h1{
     font-size: 3rem;
 }
 
+.AboutContent p{
+    font-size: 1.1rem;
+}
+
 .DropDownArrow{
     height: 25px;
     width: 25px;
@@ -45,7 +53,16 @@ h1{
     margin-left: 15px;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 700px){
+    .AboutDesktop{
+        display: block;
+    }
+    .AboutContainer{
+        display: none;
+    }
+}
+
+/* @media (min-width: 1200px){
     .About{
         background: url('../../assets/images/artBG.webp') no-repeat center center/cover;
     }
@@ -53,4 +70,5 @@ h1{
         width: 50%;
         margin: 20px auto;
     }
-}
+
+} */

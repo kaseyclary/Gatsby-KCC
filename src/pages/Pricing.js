@@ -57,7 +57,12 @@ const Pricing = () => {
                         <div className={classes.PricingOption}>
                             <h3>Large Event Catering</h3>
                             <div className={classes.PricingOption5} />
-                            <p>Event catering also varies based on guest count, location and if you are wanting to provide appetizers for guests, or have Charcuterie be the main meal. </p>
+                            <p>Event catering also varies based on guest count, location, and if charcuterie will be the main meal </p>
+                        </div>
+                        <div className={classes.PricingOption}>
+                            <h3>Individual Cups</h3>
+                            <div className={classes.PricingOption6} />
+                            <p>Individual serving cups are available upon request, minimum group size 12</p>
                         </div>
                     </div>
                 </div>

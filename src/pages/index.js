@@ -4,10 +4,11 @@ import "../pages/index.css"
 import SEO from "../components/seo"
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
-import AboutDesktop from '../components/AboutDesktop/AboutDesktop'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {graphql, useStaticQuery} from 'gatsby'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Helmet } from "react-helmet"
+import Aux from '../HOC/aux'
 
 const IndexPage = () => {
   //Will eventually want screen width to be a stateful variable to allow for dynamic screen size changes
@@ -39,13 +40,17 @@ const IndexPage = () => {
     return (edge.node.aboutInfo.internal.content)
   });
 
-  let aboutContent = null;
-
   return(
-    <Layout>
-      <Hero />
-      {aboutContent}
-    </Layout>
+    <Aux>
+      <Helmet>
+          <title>Kylie's Charcuterie Creations</title>
+          <link rel="icon" type="image/png" href="../assets/images/siteicon.png"></link>
+      </Helmet>
+      <Layout>
+        <Hero />
+        <About text={aboutText}/>
+      </Layout>
+    </Aux>
   )
 }
 
