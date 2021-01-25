@@ -12,6 +12,7 @@ h2, h3{
 @media(min-width: 800px){
     .OrderContainer{
         width: 100vw;
+        min-height: 100vh;
         height: auto;
         background: url('../assets/images/IMG_8930.webp') no-repeat center center/cover;
         display: flex;
