@@ -53,6 +53,7 @@
         margin: 0;
     }
     .footerText{
+        margin-top: 5px;
         width: auto;
         display: flex;
         flex-direction: column;
