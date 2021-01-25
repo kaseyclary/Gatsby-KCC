@@ -40,12 +40,14 @@
     .Footer{
         height: 3.1rem;
         font-size: 0.8rem;
+        overflow-y: hidden;
     }
     .FooterContent{
         flex-direction: row;
         justify-content: space-around;
         width: 400px;
         margin: auto;
+        overflow: hidden;
     }
 
     .SocialContainer{
