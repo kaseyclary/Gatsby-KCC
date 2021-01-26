@@ -27,10 +27,15 @@ const OrderForm = () => (
             <Form.Label>Order Type</Form.Label>
             <Form.Control as="select" defaultValue="Choose..." name="event-type">
                 <option>Choose...</option>
+                <option>Valentine's Special</option>
                 <option>Small Group</option>
                 <option>Event</option>
                 <option>Brunch</option>
             </Form.Control>
+        </Form.Group>
+        <Form.Group controlId="formDate">
+            <Form.Label>Date</Form.Label>
+            <Form.Control type="date" name="date"/>
         </Form.Group>
         <Form.Group controlId="formPhone">
             <Form.Label>Phone Number</Form.Label>
