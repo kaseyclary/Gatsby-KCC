@@ -27,6 +27,8 @@ const OrderForm = () => (
             <Form.Label>Order Type</Form.Label>
             <Form.Control as="select" defaultValue="Choose..." name="event-type">
                 <option>Choose...</option>
+                <option>Bloody Mary</option>
+                <option>St. Patty's</option>
                 <option>Small Group</option>
                 <option>Event</option>
                 <option>Brunch</option>
